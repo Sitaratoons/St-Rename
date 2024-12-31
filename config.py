@@ -3,10 +3,10 @@ import re, os, time
 
 from os import environ
 
-API = environ.get("API", "") # shortlink api
-URL = environ.get("URL", "") # shortlink domain without https://
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # bot username without @
+API = environ.get("API", "f84049b079c1eed14e5c254a53f0e2a2e2a40668") # shortlink api
+URL = environ.get("URL", "adrinolinks.in") # shortlink domain without https://
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/How_to_download_ST/3") # how to open link 
+BOT_USERNAME = environ.get("BOT_USERNAME", "Sitaratoons_Rename_bot") # bot username without @
 VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
 
 id_pattern = re.compile(r'^.\d+$') 
