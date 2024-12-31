@@ -1,5 +1,4 @@
 pyropatch==2.1    
-pytz==2023.3
 aiohttp 
 Pillow
 humanize
@@ -11,4 +10,5 @@ dnspython
 aiohttp 
 pyromod==1.5
 shortzy
+pytz
 
