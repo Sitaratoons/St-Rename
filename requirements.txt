@@ -10,3 +10,5 @@ TgCrypto
 dnspython
 aiohttp 
 pyromod==1.5
+shortzy
+
