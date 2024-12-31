@@ -3,7 +3,7 @@ import random
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ForceReply, CallbackQuery
 from helper.database import db
-from config import Config, Txt  
+from config import Config, Txt, VERIFY, VERIFY_TUTORIAL, BOT_USERNAME
 import humanize  
 from asyncio import sleep
 from pyrogram.errors import FloodWait
