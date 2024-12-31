@@ -7,6 +7,7 @@ from config import Config, Txt
 import humanize  
 from asyncio import sleep
 from pyrogram.errors import FloodWait
+from utils import verify_user, check_token
 
 @Client.on_message(filters.private & filters.command("start"))
 async def start(client, message):
