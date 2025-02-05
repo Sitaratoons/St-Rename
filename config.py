@@ -21,7 +21,7 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","Cluster0")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://sitaratoons:sitaratoons@cluster0.98nq3.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
