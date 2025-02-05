@@ -13,11 +13,11 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
+    API_ID    = os.environ.get("API_ID", "28918271")
+    API_HASH  = os.environ.get("API_HASH", "29bf447b916a795191046a91317869fb")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
     
-    PORT = os.environ.get("PORT", "")
+    PORT = os.environ.get("PORT", "8080")
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","Cluster0")     
